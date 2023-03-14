@@ -1,0 +1,10 @@
+name: Pain au chocolat
+
+on: [push]
+
+jobs:
+  example-job:
+    runs-on: fedora-36
+    steps:
+      - name: Run date command
+        run: date
